@@ -1,0 +1,183 @@
+/*
+Theme Name: Theme enfant
+Description: Theme enfant de Abdel
+Author: Abdel
+Template: blankslate
+Version: 1.0.0
+*/
+/*{ background-color: #ECE2DA}*/
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&display=swap');
+* {
+    font-family: 'Syne', sans-serif !important;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+#menu img {
+    max-width: 191px;
+}
+.menu-header {
+    display: flex;
+}
+.menu-header li {
+    padding: 1em;
+}
+/* changer l'ordre des éléments du menu */
+.menu-header li:nth-child(1) {
+    order: 1;
+}
+.menu-header li:nth-child(2) {
+    order: 3;
+    background-color: #DC9F96;
+    
+}
+
+.menu-header li:nth-child(2) a {
+	color: #ffffff;
+}
+.menu-header li:nth-child(3) {
+    order: 2;
+}
+h1.entry-title{
+    display: none;
+}
+
+button#wpforms-submit-94{
+    background-color: #E0B9B4;
+}
+
+div.wpforms-container-full textarea {
+    width: 45%;
+}
+
+div#wpforms-94-field_4-container {
+    width: 1889px;
+}
+
+div#wpforms-94-field_2-container {
+    width: 1889px;
+}
+
+.wpforms-container .wpforms-submit-container {
+    display: flex;
+    width: 453px;
+    height: 55px;
+    padding: 9px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#wpforms-form-175 .wpforms-field-container {
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+  
+  button#wpforms-submit-175 {
+    background-color: #E0B9B4;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+.input-cont {
+    display: flex;
+    margin-top: 1em;
+}
+.fruit-input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 51px;
+    text-align: center;
+    padding: 19px 4px;
+}
+.buttons-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.modify-btns {
+    display: flex;
+    flex-direction: column;
+}
+.modify-btns button {
+    background-color: #dc9f96;
+    border: none;
+    color: white;
+    padding: 6px 9px;
+    cursor: pointer;
+}
+.modify-btns .btn-plus {
+    border-radius: 0 5px 0 0;
+    border-bottom: 1px white solid;
+}
+.btn-mois {
+    border-radius: 0 0 5px 0;
+}
+.btn-ok {
+    background-color: #e0b9b4;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 1.5em;
+    min-width: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+div.wpforms-container-full .wpforms-field-label {
+    margin: 0 0 var(--wpforms-field-size-input-spacing) 0;
+    padding: 0;
+    font-size: var(--wpforms-label-size-font-size);
+    line-height: var(--wpforms-label-size-line-height);
+    color: rgb(255 255 255 / 85%);
+}
+
+.wpforms-container .wpforms-submit-container{
+    display: flex;
+    width: 900px;   
+}
+
+.elementor-89 .elementor-element.elementor-element-8d34a19 > .elementor-widget-container {
+    background-color: #3B8E46;
+    
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    /* width: -webkit-fill-available; */
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#mentions-legales-content {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  #mentions-legales-link {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+ 
