@@ -29,7 +29,7 @@ add_action('customize_register', 'montheme_customize_register');
 function theme_register_menus()
 {
     register_nav_menus(array(
-        'header' => __('Principalle'),
+        'header' => __('Principale'),
         'footer' => __('Pied de page'),
     ));
 }
